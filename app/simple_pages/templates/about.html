@@ -1,117 +1,51 @@
 {% extends "base.html" %}
 {% block content %}
-    About Page
-{% endblock %}
 
- <div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="static/images/carouselimage1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="static/images/carouselimage2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="static/images/carouselimage3.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="static/images/carouselimage4.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="static/images/carouselimage5.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div class="row justify-content-evenly">
-        <div class="col-md-auto">
-            <div class="card" style="width: 18rem;">
-                <img src="static/images/card1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-auto">
-            <div class="card" style="width: 18rem;">
-                <img src="static/images/card2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-auto">
-            <div class="card" style="width: 18rem;">
-                <img src="static/images/card4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container px-4">
-    <div class="row gx-5">
-
+     <div class="row">
         <div class="col">
-            <div class="p-3 border bg-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
+            <p class="lead text-center">
+                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo
+                luctus.
+            </p>
         </div>
-        <div class="col">
-            <div class="p-3 border bg-light">
-                <form action="/action_page.php">
-                    <div class="signupcontainer">
-                        <h2>Subscribe to our Newsletter</h2>
-                    </div>
-                    <div class="signupcontainer" style="background-color:white">
-                        <input type="text" placeholder="Email address" name="mail" required>
-                    </div>
-                    <div class="signupcontainer">
-                        <input type="submit" value="Subscribe">
-                    </div>
-                </form>
-            </div>
-        </div>
-
     </div>
-</div>
-</div>
-</form>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
 
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h4>Latest News</h4>
+                <ul class="timeline">
+                    <li>
+                        <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+                        <a href="#" class="float-right">21 March, 2014</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi
+                            semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula
+                            in sodales vehicula....</p>
+                    </li>
+                    <li>
+                        <a href="#">21 000 Job Seekers</a>
+                        <a href="#" class="float-right">4 March, 2014</a>
+                        <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis
+                            vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                    </li>
+                    <li>
+                        <a href="#">Awesome Employers</a>
+                        <a href="#" class="float-right">1 April, 2014</a>
+                        <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc
+                            vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-muted mt-5 mb-5 text-center small">by : <a class="text-muted" target="_blank"
+                                                                href="http://totoprayogo.com">totoprayogo.com</a></div>
+</div>
 
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -126,3 +60,4 @@
 <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </body>
 </html>
+{% endblock %}
